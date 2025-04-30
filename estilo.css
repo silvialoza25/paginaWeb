@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+RO:wght@100..400&display=swap');
+
+body{
+	background: #ff4b1f;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1fddff, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1fddff, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#titulo{
+	background: #0099F7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	font-family: "Playwrite RO", cursive;
+	text-align: center;
+	font-size: 3.2rem;
+	color: #D97143;
+
+}
+
+.articulo{
+	background: #4DA0B0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	width: 45%;
+	margin: 32px 32px 32px 32px;
+	padding: 16px 16px 16px 16px;
+	border-radius: 34px 16px 34px 16px;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+#container{
+	display: flex;
+	flex-direction: column;
+}
+
+img{
+	border-radius: 20px;
+	height: 95%;
+}
+
+h2{
+	font-family: "Bebas Neue", sans-serif;
+	color: #D97143;
+	margin: 16px;
+	padding: 8px;
+	width: 15%;
+	text-align: right;
+}
+
+p{
+	width: 80%;
+
+}
